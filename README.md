@@ -1,9 +1,9 @@
 # react-basic-projects
 
-bg Changer deployed at: https://react-basic-projects-tau.vercel.app/
+[BackgroundChangerLive](https://react-basic-projects-tau.vercel.app/)
 
 
-Password generator deployed at: https://react-basic-projects-uc42.vercel.app/
+[PasswordGeneratorLive](https://react-basic-projects-uc42.vercel.app/)
 
 
-React Routing deployed at : https://react-basic-projects-54pp.vercel.app/
+[ReactRoutingLive](https://react-basic-projects-54pp.vercel.app/)
