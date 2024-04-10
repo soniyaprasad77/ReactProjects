@@ -1,5 +1,4 @@
-import { use } from 'react';
-import {useState, useCallback} from 'react';
+import {useState, useEffect} from 'react';
 
 const useCurrencyInfo = () => {
     const [data, setData] = useState('USD');
