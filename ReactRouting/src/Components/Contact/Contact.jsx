@@ -8,10 +8,10 @@ export default function Contact() {
                     <div className="grid grid-cols-1 md:grid-cols-2">
                         <div className="p-6 mr-2 bg-gray-100 sm:rounded-lg">
                             <h1 className="text-3xl sm:text-4xl text-gray-800 font-extrabold tracking-tight">
-                                Get in touch: 
+                                Contact Us
                             </h1>
                             <p className="text-normal text-lg sm:text-xl font-medium text-gray-600 mt-2">
-                                Fill in the form to start a conversation
+                                Plan your next adventure with us. Fill in the form to get started!
                             </p>
 
                             <div className="flex items-center mt-8 text-gray-600">
@@ -38,7 +38,7 @@ export default function Contact() {
                                     />
                                 </svg>
                                 <div className="ml-4 text-md tracking-wide font-semibold w-40">
-                                    Acme Inc, Street, State, Postal Code
+                                    Wanderlust Travel, 123 Adventure Lane, Explore City, 56789
                                 </div>
                             </div>
 
@@ -60,7 +60,7 @@ export default function Contact() {
                                     />
                                 </svg>
                                 <div className="ml-4 text-md tracking-wide font-semibold w-40">
-                                    +44 1234567890
+                                    +1 800 123 4567
                                 </div>
                             </div>
 
@@ -82,18 +82,18 @@ export default function Contact() {
                                     />
                                 </svg>
                                 <div className="ml-4 text-md tracking-wide font-semibold w-40">
-                                    info@acme.org
+                                    contact@wanderlusttravel.com
                                 </div>
                             </div>
                         </div>
 
                         <form className="p-6 flex flex-col justify-center">
                             <div className="flex flex-col">
-                                <label for="name" className="hidden">
+                                <label htmlFor="name" className="hidden">
                                     Full Name
                                 </label>
                                 <input
-                                    type="name"
+                                    type="text"
                                     name="name"
                                     id="name"
                                     placeholder="Full Name"
@@ -102,7 +102,7 @@ export default function Contact() {
                             </div>
 
                             <div className="flex flex-col mt-2">
-                                <label for="email" className="hidden">
+                                <label htmlFor="email" className="hidden">
                                     Email
                                 </label>
                                 <input
@@ -115,8 +115,8 @@ export default function Contact() {
                             </div>
 
                             <div className="flex flex-col mt-2">
-                                <label for="tel" className="hidden">
-                                    Number
+                                <label htmlFor="tel" className="hidden">
+                                    Telephone Number
                                 </label>
                                 <input
                                     type="tel"
